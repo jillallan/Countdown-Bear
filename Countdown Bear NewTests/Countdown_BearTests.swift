@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Countdown_Bear
+@testable import Countdown_Bear_New
 
 final class Countdown_BearTests: XCTestCase {
 
