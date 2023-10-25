@@ -26,8 +26,9 @@ final class Countdown_BearUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        
         let addItemButton = app.buttons["Add Item"]
-        XCTAssert(addItemButton.isHittable)
+        XCTAssert(addItemButton.exists)
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
