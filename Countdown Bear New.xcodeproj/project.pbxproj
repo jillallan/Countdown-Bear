@@ -27,13 +27,6 @@
 			remoteGlobalIDString = 784BFE0B2AE991F800CD8E9C;
 			remoteInfo = "Countdown Bear";
 		};
-		784BFE2B2AE991FA00CD8E9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 784BFE042AE991F800CD8E9C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 784BFE0B2AE991F800CD8E9C;
-			remoteInfo = "Countdown Bear";
-		};
 		78881A132AE9B2240036FE7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 784BFE042AE991F800CD8E9C /* Project object */;
@@ -54,7 +47,6 @@
 		784BFE1B2AE991FA00CD8E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		784BFE202AE991FA00CD8E9C /* Countdown Bear NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		784BFE242AE991FA00CD8E9C /* Countdown_BearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_BearTests.swift; sourceTree = "<group>"; };
-		784BFE2A2AE991FA00CD8E9C /* Countdown Bear NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78881A0D2AE9B2240036FE7A /* Countdown Bear NewUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewUITests2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78881A0F2AE9B2240036FE7A /* Countdown_Bear_NewUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_Bear_NewUITests2.swift; sourceTree = "<group>"; };
 		78881A112AE9B2240036FE7A /* Countdown_Bear_NewUITests2LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_Bear_NewUITests2LaunchTests.swift; sourceTree = "<group>"; };
@@ -71,13 +63,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		784BFE1D2AE991FA00CD8E9C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		784BFE272AE991FA00CD8E9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -109,7 +94,6 @@
 			children = (
 				784BFE0C2AE991F800CD8E9C /* Countdown Bear New.app */,
 				784BFE202AE991FA00CD8E9C /* Countdown Bear NewTests.xctest */,
-				784BFE2A2AE991FA00CD8E9C /* Countdown Bear NewUITests.xctest */,
 				78881A0D2AE9B2240036FE7A /* Countdown Bear NewUITests2.xctest */,
 			);
 			name = Products;
@@ -194,24 +178,6 @@
 			productReference = 784BFE202AE991FA00CD8E9C /* Countdown Bear NewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		784BFE292AE991FA00CD8E9C /* Countdown Bear NewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 784BFE3A2AE991FA00CD8E9C /* Build configuration list for PBXNativeTarget "Countdown Bear NewUITests" */;
-			buildPhases = (
-				784BFE262AE991FA00CD8E9C /* Sources */,
-				784BFE272AE991FA00CD8E9C /* Frameworks */,
-				784BFE282AE991FA00CD8E9C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				784BFE2C2AE991FA00CD8E9C /* PBXTargetDependency */,
-			);
-			name = "Countdown Bear NewUITests";
-			productName = "Countdown BearUITests";
-			productReference = 784BFE2A2AE991FA00CD8E9C /* Countdown Bear NewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		78881A0C2AE9B2240036FE7A /* Countdown Bear NewUITests2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78881A172AE9B2240036FE7A /* Build configuration list for PBXNativeTarget "Countdown Bear NewUITests2" */;
@@ -247,10 +213,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 784BFE0B2AE991F800CD8E9C;
 					};
-					784BFE292AE991FA00CD8E9C = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = 784BFE0B2AE991F800CD8E9C;
-					};
 					78881A0C2AE9B2240036FE7A = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 784BFE0B2AE991F800CD8E9C;
@@ -272,7 +234,6 @@
 			targets = (
 				784BFE0B2AE991F800CD8E9C /* Countdown Bear New */,
 				784BFE1F2AE991FA00CD8E9C /* Countdown Bear NewTests */,
-				784BFE292AE991FA00CD8E9C /* Countdown Bear NewUITests */,
 				78881A0C2AE9B2240036FE7A /* Countdown Bear NewUITests2 */,
 			);
 		};
@@ -289,13 +250,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		784BFE1E2AE991FA00CD8E9C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		784BFE282AE991FA00CD8E9C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,13 +284,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		784BFE262AE991FA00CD8E9C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		78881A092AE9B2240036FE7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -355,11 +302,6 @@
 			isa = PBXTargetDependency;
 			target = 784BFE0B2AE991F800CD8E9C /* Countdown Bear New */;
 			targetProxy = 784BFE212AE991FA00CD8E9C /* PBXContainerItemProxy */;
-		};
-		784BFE2C2AE991FA00CD8E9C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 784BFE0B2AE991F800CD8E9C /* Countdown Bear New */;
-			targetProxy = 784BFE2B2AE991FA00CD8E9C /* PBXContainerItemProxy */;
 		};
 		78881A142AE9B2240036FE7A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -609,52 +551,6 @@
 			};
 			name = Release;
 		};
-		784BFE3B2AE991FA00CD8E9C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UJT6W9JA72;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jillallan.Countdown-Bear-NewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Countdown Bear New";
-			};
-			name = Debug;
-		};
-		784BFE3C2AE991FA00CD8E9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UJT6W9JA72;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jillallan.Countdown-Bear-NewUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Countdown Bear New";
-			};
-			name = Release;
-		};
 		78881A152AE9B2240036FE7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -720,15 +616,6 @@
 			buildConfigurations = (
 				784BFE382AE991FA00CD8E9C /* Debug */,
 				784BFE392AE991FA00CD8E9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		784BFE3A2AE991FA00CD8E9C /* Build configuration list for PBXNativeTarget "Countdown Bear NewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				784BFE3B2AE991FA00CD8E9C /* Debug */,
-				784BFE3C2AE991FA00CD8E9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
