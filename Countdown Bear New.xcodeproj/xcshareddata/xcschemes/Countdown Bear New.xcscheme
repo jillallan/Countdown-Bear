@@ -51,6 +51,17 @@
                ReferencedContainer = "container:Countdown Bear New.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "78881A0C2AE9B2240036FE7A"
+               BuildableName = "Countdown Bear NewUITests2.xctest"
+               BlueprintName = "Countdown Bear NewUITests2"
+               ReferencedContainer = "container:Countdown Bear New.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
