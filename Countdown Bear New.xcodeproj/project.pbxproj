@@ -13,8 +13,6 @@
 		784BFE162AE991FA00CD8E9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784BFE152AE991FA00CD8E9C /* Assets.xcassets */; };
 		784BFE1A2AE991FA00CD8E9C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784BFE192AE991FA00CD8E9C /* Preview Assets.xcassets */; };
 		784BFE252AE991FA00CD8E9C /* Countdown_BearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784BFE242AE991FA00CD8E9C /* Countdown_BearTests.swift */; };
-		784BFE2F2AE991FA00CD8E9C /* Countdown_BearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784BFE2E2AE991FA00CD8E9C /* Countdown_BearUITests.swift */; };
-		784BFE312AE991FA00CD8E9C /* Countdown_BearUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784BFE302AE991FA00CD8E9C /* Countdown_BearUITestsLaunchTests.swift */; };
 		78881A102AE9B2240036FE7A /* Countdown_Bear_NewUITests2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78881A0F2AE9B2240036FE7A /* Countdown_Bear_NewUITests2.swift */; };
 		78881A122AE9B2240036FE7A /* Countdown_Bear_NewUITests2LaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78881A112AE9B2240036FE7A /* Countdown_Bear_NewUITests2LaunchTests.swift */; };
 		78881A1A2AE9B2650036FE7A /* Countdown_BearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78881A182AE9B2650036FE7A /* Countdown_BearUITests.swift */; };
@@ -57,8 +55,6 @@
 		784BFE202AE991FA00CD8E9C /* Countdown Bear NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		784BFE242AE991FA00CD8E9C /* Countdown_BearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_BearTests.swift; sourceTree = "<group>"; };
 		784BFE2A2AE991FA00CD8E9C /* Countdown Bear NewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		784BFE2E2AE991FA00CD8E9C /* Countdown_BearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_BearUITests.swift; sourceTree = "<group>"; };
-		784BFE302AE991FA00CD8E9C /* Countdown_BearUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_BearUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78881A0D2AE9B2240036FE7A /* Countdown Bear NewUITests2.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewUITests2.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78881A0F2AE9B2240036FE7A /* Countdown_Bear_NewUITests2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_Bear_NewUITests2.swift; sourceTree = "<group>"; };
 		78881A112AE9B2240036FE7A /* Countdown_Bear_NewUITests2LaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Countdown_Bear_NewUITests2LaunchTests.swift; sourceTree = "<group>"; };
@@ -103,7 +99,6 @@
 			children = (
 				784BFE0E2AE991F800CD8E9C /* Countdown Bear New */,
 				784BFE232AE991FA00CD8E9C /* Countdown Bear NewTests */,
-				784BFE2D2AE991FA00CD8E9C /* Countdown Bear NewUITests */,
 				78881A0E2AE9B2240036FE7A /* Countdown Bear NewUITests2 */,
 				784BFE0D2AE991F800CD8E9C /* Products */,
 			);
@@ -148,15 +143,6 @@
 				784BFE242AE991FA00CD8E9C /* Countdown_BearTests.swift */,
 			);
 			path = "Countdown Bear NewTests";
-			sourceTree = "<group>";
-		};
-		784BFE2D2AE991FA00CD8E9C /* Countdown Bear NewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				784BFE2E2AE991FA00CD8E9C /* Countdown_BearUITests.swift */,
-				784BFE302AE991FA00CD8E9C /* Countdown_BearUITestsLaunchTests.swift */,
-			);
-			path = "Countdown Bear NewUITests";
 			sourceTree = "<group>";
 		};
 		78881A0E2AE9B2240036FE7A /* Countdown Bear NewUITests2 */ = {
@@ -348,8 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				784BFE312AE991FA00CD8E9C /* Countdown_BearUITestsLaunchTests.swift in Sources */,
-				784BFE2F2AE991FA00CD8E9C /* Countdown_BearUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
