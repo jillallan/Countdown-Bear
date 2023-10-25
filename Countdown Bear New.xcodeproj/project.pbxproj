@@ -79,8 +79,8 @@
 			isa = PBXGroup;
 			children = (
 				784BFE0E2AE991F800CD8E9C /* Countdown Bear New */,
-				784BFE232AE991FA00CD8E9C /* Countdown BearTests */,
-				784BFE2D2AE991FA00CD8E9C /* Countdown BearUITests */,
+				784BFE232AE991FA00CD8E9C /* Countdown Bear NewTests */,
+				784BFE2D2AE991FA00CD8E9C /* Countdown Bear NewUITests */,
 				784BFE0D2AE991F800CD8E9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,21 +117,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		784BFE232AE991FA00CD8E9C /* Countdown BearTests */ = {
+		784BFE232AE991FA00CD8E9C /* Countdown Bear NewTests */ = {
 			isa = PBXGroup;
 			children = (
 				784BFE242AE991FA00CD8E9C /* Countdown_BearTests.swift */,
 			);
-			path = "Countdown BearTests";
+			path = "Countdown Bear NewTests";
 			sourceTree = "<group>";
 		};
-		784BFE2D2AE991FA00CD8E9C /* Countdown BearUITests */ = {
+		784BFE2D2AE991FA00CD8E9C /* Countdown Bear NewUITests */ = {
 			isa = PBXGroup;
 			children = (
 				784BFE2E2AE991FA00CD8E9C /* Countdown_BearUITests.swift */,
 				784BFE302AE991FA00CD8E9C /* Countdown_BearUITestsLaunchTests.swift */,
 			);
-			path = "Countdown BearUITests";
+			path = "Countdown Bear NewUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
