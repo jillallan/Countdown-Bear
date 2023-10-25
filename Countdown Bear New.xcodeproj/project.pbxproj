@@ -40,7 +40,7 @@
 		784BFE112AE991F800CD8E9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		784BFE132AE991F800CD8E9C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		784BFE152AE991FA00CD8E9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		784BFE172AE991FA00CD8E9C /* Countdown_Bear.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Countdown_Bear.entitlements; sourceTree = "<group>"; };
+		784BFE172AE991FA00CD8E9C /* Countdown_Bear_New.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Countdown_Bear_New.entitlements; sourceTree = "<group>"; };
 		784BFE192AE991FA00CD8E9C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		784BFE1B2AE991FA00CD8E9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		784BFE202AE991FA00CD8E9C /* Countdown Bear NewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Countdown Bear NewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,7 +78,7 @@
 		784BFE032AE991F800CD8E9C = {
 			isa = PBXGroup;
 			children = (
-				784BFE0E2AE991F800CD8E9C /* Countdown Bear */,
+				784BFE0E2AE991F800CD8E9C /* Countdown Bear New */,
 				784BFE232AE991FA00CD8E9C /* Countdown BearTests */,
 				784BFE2D2AE991FA00CD8E9C /* Countdown BearUITests */,
 				784BFE0D2AE991F800CD8E9C /* Products */,
@@ -95,18 +95,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		784BFE0E2AE991F800CD8E9C /* Countdown Bear */ = {
+		784BFE0E2AE991F800CD8E9C /* Countdown Bear New */ = {
 			isa = PBXGroup;
 			children = (
 				784BFE0F2AE991F800CD8E9C /* Countdown_BearApp.swift */,
 				784BFE112AE991F800CD8E9C /* ContentView.swift */,
 				784BFE132AE991F800CD8E9C /* Item.swift */,
 				784BFE152AE991FA00CD8E9C /* Assets.xcassets */,
-				784BFE172AE991FA00CD8E9C /* Countdown_Bear.entitlements */,
+				784BFE172AE991FA00CD8E9C /* Countdown_Bear_New.entitlements */,
 				784BFE1B2AE991FA00CD8E9C /* Info.plist */,
 				784BFE182AE991FA00CD8E9C /* Preview Content */,
 			);
-			path = "Countdown Bear";
+			path = "Countdown Bear New";
 			sourceTree = "<group>";
 		};
 		784BFE182AE991FA00CD8E9C /* Preview Content */ = {
@@ -422,15 +422,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Countdown Bear/Countdown_Bear.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Countdown Bear New/Countdown_Bear_New.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Countdown Bear/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Countdown Bear New/Preview Content\"";
 				DEVELOPMENT_TEAM = UJT6W9JA72;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Countdown Bear/Info.plist";
+				INFOPLIST_FILE = "Countdown Bear New/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -447,7 +447,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jillallan.Countdown-Bear";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jillallan.Countdown-Bear-New";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -462,15 +462,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Countdown Bear/Countdown_Bear.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Countdown Bear New/Countdown_Bear_New.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Countdown Bear/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Countdown Bear New/Preview Content\"";
 				DEVELOPMENT_TEAM = UJT6W9JA72;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Countdown Bear/Info.plist";
+				INFOPLIST_FILE = "Countdown Bear New/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -487,7 +487,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jillallan.Countdown-Bear";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jillallan.Countdown-Bear-New";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
